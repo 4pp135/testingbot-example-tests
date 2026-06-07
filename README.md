@@ -31,7 +31,7 @@ The main goal is to demonstrate the use of the TestingBot platform for free thro
 ## Project Structure
 
 - `README.md` - Project documentation
-- `ejemplo.test.js` - Basic test example
+- `example.test.js` - Basic test example
 
 ## License
 
