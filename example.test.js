@@ -1,9 +1,20 @@
 // example.test.js
-// Basic test example for TestingBot
+// Basic automated test example for TestingBot (Playwright)
 
-describe('TestingBot Example Test', () => {
-  it('should load a test page successfully', async () => {
-    // Here would go the real code using Selenium, Playwright or Cypress
-    console.log('Test executed successfully on TestingBot');
-  });
-});
+const { chromium } = require('playwright');
+
+(async () => {
+  console.log('Starting test with TestingBot...');
+
+  const browser = await chromium.launch();
+  const page = await browser.newPage();
+
+  await page.goto('https://testingbot.com');
+  console.log('Page loaded successfully');
+
+  await page.screenshot({ path: 'screenshot.png' });
+  console.log('Screenshot saved');
+
+  await browser.close();
+  console.log('Test completed successfully');
+})();
