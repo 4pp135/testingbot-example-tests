@@ -1,32 +1,33 @@
 # testingbot-example-tests
 
-Automated Testing Example with TestingBot - Open Source Project
+Automated testing examples with TestingBot for Open Source Project
 
-## What is this project?
+## What's this project?
 
-This repository contains basic examples of how to use **TestingBot** to run automated tests on real browsers and devices (iOS and Android).
+This repository contains simple and ready-to-use examples of how to integrate **TestingBot** for automated testing of websites and mobile apps using popular frameworks.
 
 The main goal is to demonstrate the use of the TestingBot platform for free through its Open Source project plan.
 
 ## Features
 
-- Automated testing in the cloud with TestingBot
-- Support for Selenium, Playwright, Cypress, and Appium
-- Ready-to-use examples
-- GitHub Actions integration
+- Testing on real browsers and mobile devices
+- Support for Playwright, Selenium, Appium, Cypress and Maestro
+- Real examples of TestingBot integration
+- Easy to set up and run
 
 ## Requirements for TestingBot Free Open Source Plan
 
 - Public repository ✅
-- OSI License (MIT) ✅
+- OSI-approved license (MIT) ✅
 - Clear and descriptive README ✅
 - Actively maintained project ✅
 
 ## How to use this example
 
-1. Create a free account on [TestingBot](https://testingbot.com)
-2. Request the Open Source plan here: [https://testingbot.com/open-source](https://testingbot.com/open-source)
-3. Use your API credentials to run the tests
+1. Create a free account at [TestingBot](https://testingbot.com)
+2. Apply for the Open Source plan here: [https://testingbot.com/open-source](https://testingbot.com/open-source)
+3. Get your **API Key** and **API Secret** from the dashboard
+4. Configure the credentials in your test files or environment variables
 
 ## Project Structure
 
@@ -39,4 +40,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**This project was created as an example for TestingBot's free Open Source plan.**
+**Educational example project created to demonstrate TestingBot's free Open Source plan.**
